@@ -1,13 +1,10 @@
 # stat632
 
-student-mat.csv
-contains math class data
+student-mat.csv: contains math class data
 
-student-por.csv
-contains portugese language class data
+student-por.csv: contains portugese language class data
 
-student-merge.R
-#contains the following R code for combining data:
+student-merge.R: #contains the following R code for combining data:
 d1=read.table("student-mat.csv",sep=";",header=TRUE)
 d2=read.table("student-por.csv",sep=";",header=TRUE)
 
@@ -21,7 +18,7 @@ In R, executed command `write.csv(d3,"student.csv)` to create the following:
 student.csv
 contains combined dataset
 
-
+student.txt : contains list of variables and descriptions
 
 
 
